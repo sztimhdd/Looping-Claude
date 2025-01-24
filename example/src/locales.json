@@ -1,0 +1,77 @@
+# en.json
+{
+  "greeting_templates": {
+    "default": "Hello {name}",
+    "formal": "Dear {name},",
+    "casual": "Hey {name}!",
+    "time": "{time_greeting} {name}"
+  },
+  "time_greetings": {
+    "morning": "Good morning",
+    "afternoon": "Good afternoon",
+    "evening": "Good evening"
+  },
+  "prompts": {
+    "enter_name": "Please enter your name"
+  },
+  "errors": {
+    "empty_name": "Name cannot be empty",
+    "name_too_short": "Name must be at least {min_length} characters long",
+    "name_too_long": "Name cannot exceed {max_length} characters",
+    "invalid_chars": "Name contains invalid characters",
+    "unexpected_error": "An unexpected error occurred: {error}",
+    "user_terminated": "Program terminated by user"
+  }
+}
+
+# es.json
+{
+  "greeting_templates": {
+    "default": "Hola {name}",
+    "formal": "Estimado/a {name}:",
+    "casual": "¡Hola {name}!",
+    "time": "{time_greeting} {name}"
+  },
+  "time_greetings": {
+    "morning": "Buenos días",
+    "afternoon": "Buenas tardes",
+    "evening": "Buenas noches"
+  },
+  "prompts": {
+    "enter_name": "Por favor, introduce tu nombre"
+  },
+  "errors": {
+    "empty_name": "El nombre no puede estar vacío",
+    "name_too_short": "El nombre debe tener al menos {min_length} caracteres",
+    "name_too_long": "El nombre no puede exceder los {max_length} caracteres",
+    "invalid_chars": "El nombre contiene caracteres inválidos",
+    "unexpected_error": "Se produjo un error inesperado: {error}",
+    "user_terminated": "Programa terminado por el usuario"
+  }
+}
+
+# fr.json
+{
+  "greeting_templates": {
+    "default": "Bonjour {name}",
+    "formal": "Cher/Chère {name},",
+    "casual": "Salut {name} !",
+    "time": "{time_greeting} {name}"
+  },
+  "time_greetings": {
+    "morning": "Bonjour",
+    "afternoon": "Bon après-midi",
+    "evening": "Bonsoir"
+  },
+  "prompts": {
+    "enter_name": "Veuillez entrer votre nom"
+  },
+  "errors": {
+    "empty_name": "Le nom ne peut pas être vide",
+    "name_too_short": "Le nom doit comporter au moins {min_length} caractères",
+    "name_too_long": "Le nom ne peut pas dépasser {max_length} caractères",
+    "invalid_chars": "Le nom contient des caractères invalides",
+    "unexpected_error": "Une erreur inattendue s'est produite : {error}",
+    "user_terminated": "Programme terminé par l'utilisateur"
+  }
+}

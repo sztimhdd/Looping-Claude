@@ -1,0 +1,89 @@
+{
+    "en": {
+        "name": "English",
+        "native_name": "English",
+        "direction": "ltr",
+        "fallback_chain": ["en"],
+        "number_format": {
+            "decimal_sep": ".",
+            "thousand_sep": ",",
+            "decimal_places": 2
+        },
+        "date_format": {
+            "default": "%Y-%m-%d",
+            "short": "%d/%m/%Y",
+            "long": "%B %d, %Y"
+        },
+        "plural_rules": {
+            "zero": "n = 0",
+            "one": "n = 1",
+            "other": "true"
+        }
+    },
+    "ar": {
+        "name": "Arabic",
+        "native_name": "العربية",
+        "direction": "rtl",
+        "fallback_chain": ["en"],
+        "number_format": {
+            "decimal_sep": "٫",
+            "thousand_sep": "٬",
+            "decimal_places": 2
+        },
+        "date_format": {
+            "default": "%Y-%m-%d",
+            "short": "%d/%m/%Y",
+            "long": "%d %B، %Y"
+        },
+        "plural_rules": {
+            "zero": "n = 0",
+            "one": "n = 1",
+            "two": "n = 2",
+            "few": "n % 100 between 3 and 10",
+            "many": "n % 100 between 11 and 99",
+            "other": "true"
+        }
+    },
+    "he": {
+        "name": "Hebrew",
+        "native_name": "עברית",
+        "direction": "rtl",
+        "fallback_chain": ["en"],
+        "number_format": {
+            "decimal_sep": ".",
+            "thousand_sep": ",",
+            "decimal_places": 2
+        },
+        "date_format": {
+            "default": "%Y-%m-%d",
+            "short": "%d/%m/%Y",
+            "long": "%d ב%B %Y"
+        },
+        "plural_rules": {
+            "one": "n = 1",
+            "two": "n = 2",
+            "many": "n != 0 AND n % 10 = 0",
+            "other": "true"
+        }
+    },
+    "ja": {
+        "name": "Japanese",
+        "native_name": "日本語",
+        "direction": "ltr",
+        "fallback_chain": ["en"],
+        "number_format": {
+            "decimal_sep": ".",
+            "thousand_sep": ",",
+            "decimal_places": 2
+        },
+        "date_format": {
+            "default": "%Y-%m-%d",
+            "short": "%Y年%m月%d日",
+            "long": "%Y年%B%d日"
+        },
+        "plural_rules": {
+            "one": "n = 1",
+            "other": "true"
+        }
+    }
+}
