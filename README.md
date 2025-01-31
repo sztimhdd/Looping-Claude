@@ -1,5 +1,5 @@
 # Looping-Claude - Multi-session prompt system for using AI Agents on Complex Projects
-
+![System Diagram](./looping-claude.png)
 ## Project Overview
 This project provides a structured approach for managing complex projects with AI agents like Claude across multiple chat sessions. It includes various artifacts and prompt templates to maintain continuity and context.
 
